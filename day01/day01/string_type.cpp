@@ -1,10 +1,11 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
 	
 	string cart = "생수"; //string - 문자열 자료형
-	string cartlist[] = { "커피", "생수", "계란" };
+	string cartlist[] = { "커피", "생수", "계란" }; //문자열 배열
 
 	cout << cart << endl; //결과 값 : 생수
 	cout << "*** 커피 출력 ***" << endl;
